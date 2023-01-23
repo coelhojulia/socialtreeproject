@@ -24,10 +24,10 @@ body {
     justify-content: center;
     margin-top: 4rem;
 }
-
 .tree-container .avatar img {
     width: 200px;
     height: 200px;
+    border-radius: 50%;
 }
 
 .tree-container .user {
