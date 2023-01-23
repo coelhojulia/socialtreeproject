@@ -1,0 +1,106 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #202020;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .tree-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tree-container .avatar {
+    width: 210px;
+    height: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.tree-container .avatar img {
+    width: 200px;
+    height: 200px;
+}
+
+.tree-container .user {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    color: #F8F7F2;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.tree-container .description {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    color: #F8F7F2;
+    font-weight: 400;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.tree-container .links-container {
+    margin-top: 17px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.links-container .link {
+    margin-top: 16px;
+    width: 325px;
+    border: 2px solid #F8F7F2;
+    border-radius: 4px;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    padding: 12px 0;
+    transition: ease 0.3s;
+    color: #F8F7F2;
+    font-weight: 500;
+  }
+
+  .links-container .link:hover {
+    background-color: #F8F7F2;
+    color: #202020;
+    transition: ease 0.5s;
+  }
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .copyright{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #F8F7F2;
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+
+footer .copyright:hover {
+    transform: scale(0.9);
+    transition: ease 0.2s;
+}
+
+.socials-container .social:hover {
+  transform: scale(1);
+}
